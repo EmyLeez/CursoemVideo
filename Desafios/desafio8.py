@@ -15,8 +15,14 @@ print("{} o seu IMC é {:.1f}".format(nome,imc))
 if imc < 18.5:
     print("Abaixo do peso")
 
-elif imc >= 18.5 or imc <= 25:
+elif imc >= 18.5 and imc <= 25:
     print(" Peso ideal")
 
-elif imc >=25 or imc <30:
+elif imc >=25 and imc <30:
     print("Sobrepeso")
+
+elif imc >30 and imc <40:
+    print("Obesidade!")
+
+else:
+    print("Obesidade mórbida, cuidado!")    
