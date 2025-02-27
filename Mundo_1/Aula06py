@@ -1,0 +1,12 @@
+
+#Aula 06 foi Tipos primitivos
+
+n1 = int(input("Digite o primeiro número: "))
+n2 = int(input("Digite o segundo número: "))
+
+soma = n1+n2
+print(f"O resultado da sua soma é {soma}")
+
+print('O a soma entre {} e {} é {}'.format(n1,n2,soma))
+
+print(n1.islower)
